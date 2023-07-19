@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Fira+Sans&family=Montserrat:wght@300;400;500;600;700&family=Poppins&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* .bg-red {
+    background-color: red;
+} */
+
+.mx-auto {
+    margin: auto;
+}
+
+/* .m-w-20 {
+    max-width: 30vw;
+} */
+
+.button {
+    width: 50px;
+    height: 50px;
+    /* padding: 20px; */
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    margin: 0;
+    padding: 13px 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
