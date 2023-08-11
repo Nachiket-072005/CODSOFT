@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    /* padding: 30px; */
+}
+
+.card img {
+    height: 30%;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.textBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+    width: 90%;
+    text-align: center;
+}
+
+.amountBox {
+    width: 80%;
+    height: 10%;
+    background-color: #8BC6EC;
+    border-radius: 10px;
+    margin-top: -30px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftBox {
+    width: fit-content;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.imgBox img {
+    height: 50px;
+    /* align-items: center; */
+}
+
+.rightBox {
+    align-items: center;
+}
+
+
+
+
+
+#paymentbtn {
+    width: 80%;
+    height: 9%;
+    background-color: #04092c;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.cancelBox a{
+    text-decoration: none;
+    color: rgb(31, 28, 28);
+    font-weight: bold;
+    font-size: large;
+}
+
+.cancelBox {
+    margin-bottom: 10px;
+}
