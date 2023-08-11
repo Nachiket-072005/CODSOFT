@@ -2,7 +2,7 @@
 
 ## Task_#1
 
--> Personal Website(Using HTML and CSS)<br>https://nachiket-2005.github.io/CODSOFT/Task_1/
+- > Personal Website(Using HTML and CSS)<br>https://nachiket-2005.github.io/CODSOFT/Task_1/
 
 ## Task_#3
 
